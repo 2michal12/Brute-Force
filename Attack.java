@@ -23,8 +23,6 @@ public class Attack {
                 for(int k = 0; k < num.length; k++){
                     encodedHash = encode(hash(user+adj[i]+noun[j]+num[k]));
                     if( findMatch(encodedHash, pwdArray) ){
-                                            System.out.println(encodedHash);
-
                         output.write(adj[i] + noun[j] + num[k]+"\n");
                         System.out.println("pwd: "+ ++match+".  "+encodedHash); //show match
                     }
