@@ -11,6 +11,7 @@ public class Main {
     
     public static final String USER_NAME = "user8822";
     public static final int COUNT_PWD_FOR_USER = 99;
+    public static final int COUNT_NUMBERS = 1000;
 
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException{
         
@@ -23,7 +24,7 @@ public class Main {
         String[] arrAdj = load.wordsLoad(adj);
         String[] arrNoun = load.wordsLoad(noun);
                 
-        String[] arrNum = new String[1000];
+        String[] arrNum = new String[COUNT_NUMBERS];
         
         for(Integer i = 0; i < arrNum.length; i++){
             if(i.toString().length() < 3){
