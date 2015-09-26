@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
  *
  * @author Michal 8822
  */
-public class NKS1 {
+public class Main {
     
     public static final String USER_NAME = "user8822";
     public static final int COUNT_PWD_FOR_USER = 99;
